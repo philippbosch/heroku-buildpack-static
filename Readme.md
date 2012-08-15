@@ -16,7 +16,7 @@ Example usage:
 
     $ cat 'hello world' > index.html
 
-    $ heroku create --stack cedar --buildpack git@github.com:craigkerstiens/heroku-buildpack-static.git
+    $ heroku create --buildpack https://github.com/craigkerstiens/heroku-buildpack-static.git
 
     $ git push heroku master
     ...
