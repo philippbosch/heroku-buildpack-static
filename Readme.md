@@ -14,7 +14,7 @@ Usage
 
 Example usage:
 
-    $ cat 'hello world' > index.html
+    $ echo 'hello world' > index.html
 
     $ heroku create --buildpack https://github.com/craigkerstiens/heroku-buildpack-static.git
 
